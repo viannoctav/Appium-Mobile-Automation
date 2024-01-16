@@ -1,0 +1,27 @@
+{
+    "noteTittle": "Belanja Bulanan",
+    "checklistTittle": "Belanja Mingguan",
+    "checklistTittleMultiple": "Belanja Harian",
+    "editNoteTittle": "Belanja Bulanan Edit",
+    "editChecklistTittle": "Belanja Mingguan Edit",
+    "editMultipleChecklistTittle": "Belanja Harian Edit",
+    "noteValue": "Halo ini catatan saya \n belanja bulanan \n mohon dibelanjakan ya \n terima kasih",
+    "editNoteValue": "Halo Note ini di edit ya \n terima kasih",
+    "inputItemSelection": [
+      "Beras",
+      "Minyak",
+      "Gula",
+      "Tepung",
+      "Sabun",
+      "Bumbu Dapur"
+    ],
+    "inputItemSelectionEdit": [
+      "Beras Edit",
+      "Minyak Edit",
+      "Gula Edit",
+      "Tepung Edit",
+      "Sabun Edit",
+      "Bumbu Dapur Edit"
+    ]
+}
+  
