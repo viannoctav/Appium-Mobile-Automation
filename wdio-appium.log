@@ -1,0 +1,370 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:deviceName":"Pixel","appium:platformVersion":"13.0","appium:automationName":"UiAutomator2","appium:appPackage":"com.socialnmobile.dictapps.notepad.color.note","appium:appActivity":"com.socialnmobile.colornote.activity.Main","appium:autoGrantPermissions":"true"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:deviceName":"Pixel","appium:platformVersion":"13.0","appium:automationName":"UiAutomator2","appium:appPackage":"com.socialnmobile.dictapps.notepad.color.note","appium:appActivity":"com.socialnmobile.colornote.activity.Main","appium:autoGrantPermissions":"true"}}[39m
+[38;5;16m[AppiumDriver@509e][0m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:deviceName":"Pixel","appium:platformVersion":"13.0","appium:automationName":"UiAutomator2","appium:appPackage":"com.socialnmobile.dictapps.notepad.color.note","appium:appActivity":"com.socialnmobile.colornote.activity.Main","appium:autoGrantPermissions":"true"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:deviceName":"Pixel","appium:platformVersion":"13.0","appium:automationName":"UiAutomator2","appium:appPackage":"com.socialnmobile.dictapps.notepad.color.note","appium:appActivity":"com.socialnmobile.colornote.activity.Main","appium:autoGrantPermissions":"true"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@509e][0m Event 'newSessionRequested' logged at 1721036892779 (16:48:12 GMT+0700 (Indochina Time))
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@509e][0m Appium v2.4.1 creating new AndroidUiautomator2Driver (v2.34.2) session
+[38;5;16m[AppiumDriver@509e][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@509e][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@509e][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.2
+[38;5;16m[AppiumDriver@509e][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;48m[AndroidUiautomator2Driver@599d][0m Creating session with W3C capabilities: {
+[38;5;48m[AndroidUiautomator2Driver@599d][0m   "alwaysMatch": {
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "platformName": "Android",
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "appium:deviceName": "Pixel",
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "appium:platformVersion": "13.0",
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "appium:automationName": "UiAutomator2",
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "appium:appPackage": "com.socialnmobile.dictapps.notepad.color.note",
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "appium:appActivity": "com.socialnmobile.colornote.activity.Main",
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     "appium:autoGrantPermissions": "true"
+[38;5;48m[AndroidUiautomator2Driver@599d][0m   },
+[38;5;48m[AndroidUiautomator2Driver@599d][0m   "firstMatch": [
+[38;5;48m[AndroidUiautomator2Driver@599d][0m     {}
+[38;5;48m[AndroidUiautomator2Driver@599d][0m   ]
+[38;5;48m[AndroidUiautomator2Driver@599d][0m }
+[38;5;48m[AndroidUiautomator2Driver@599d][0m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Session created with session id: 8bc8b12b-0c92-431e-abff-d6c5a4b4828c
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Starting 'com.socialnmobile.dictapps.notepad.color.note' directly on the device
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[38;5;64m[ADB][0m Trying to find connected Android devices
+[38;5;64m[ADB][0m Getting connected devices
+[38;5;64m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[38;5;80m[AndroidDriver][0m Looking for a device with Android '13.0.0'
+[38;5;64m[ADB][0m Setting device id to emulator-5554
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;80m[AndroidDriver][0m Using device: emulator-5554
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;64m[ADB][0m Setting device id to emulator-5554
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.sdk': 33
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;64m[ADB][0m Device API level: 33
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;80m[AndroidDriver][0m No app sent in, not parsing package/activity
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[38;5;80m[AndroidDriver][0m Pushing settings apk to device...
+[38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.2.0' >= '5.2.0')
+[38;5;64m[ADB][0m There is no need to install/upgrade 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;64m[ADB][0m Getting IDs of all 'io.appium.settings' processes
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[38;5;80m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;96m[Logcat][0m Starting logs capture with command: 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s emulator-5554 logcat -v threadtime
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[38;5;64m[ADB][0m Forwarding system: 8200 to device: 6790
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[38;5;64m[ADB][0m Checking app cert for D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk
+[38;5;64m[ADB][0m Checking app cert for D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-11.0.14\\bin\\java.exe' -Xmx1024M -Xss1m -jar 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs D:\\testingMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-11.0.14\\bin\\java.exe' -Xmx1024M -Xss1m -jar 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs D:\\testingMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.16.apk
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m 
+[38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;64m[ADB][0m 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+[38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m 
+[38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.16.apk'
+[38;5;64m[ADB][0m 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk' is signed with the default certificate
+[38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.12.16' >= '5.12.16')
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"D:\\testingMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.16.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"D:\\testingMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Server packages are not going to be (re)installed
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Waiting up to 30000ms for services to be available
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m No app capability. Assuming it is already on the device
+[38;5;64m[ADB][0m Getting install status for com.socialnmobile.dictapps.notepad.color.note
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path com.socialnmobile.dictapps.notepad.color.note'
+[38;5;64m[ADB][0m 'com.socialnmobile.dictapps.notepad.color.note' is installed
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.socialnmobile.dictapps.notepad.color.note'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.socialnmobile.dictapps.notepad.color.note'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.socialnmobile.dictapps.notepad.color.note'
+[38;5;64m[ADB][0m Retrieving requested permissions
+[38;5;64m[ADB][0m Retrieved 21 permissions from requested group
+[38;5;64m[ADB][0m Retrieving granted permissions
+[38;5;64m[ADB][0m Retrieved 10 permissions from install,runtime groups
+[38;5;64m[ADB][0m Granting permissions ["android.permission.POST_NOTIFICATIONS"] to 'com.socialnmobile.dictapps.notepad.color.note'
+[38;5;64m[ADB][0m Got the following command chunks to execute: [["pm","grant","com.socialnmobile.dictapps.notepad.color.note","android.permission.POST_NOTIFICATIONS",";"]]
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm grant com.socialnmobile.dictapps.notepad.color.note android.permission.POST_NOTIFICATIONS ;'
+[38;5;80m[AndroidDriver][0m Performed fast reset on the installed 'com.socialnmobile.dictapps.notepad.color.note' application (stop and clear)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Performing shallow cleanup of automation leftovers
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m No obsolete sessions have been detected
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m The io.appium.uiautomator2.server.test process might fail to stop within 3000ms timeout.
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Starting UIAutomator2 server 5.12.16
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Using UIAutomator2 server from 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk' and test from 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m The initialization of the instrumentation process took 42ms
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/session' to command name 'createSession'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"13.0","automationName":"UiAutomator2","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","autoGrantPermissions":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"Pixel","platformVersion":"13.0","automationName":"UiAutomator2","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","autoGrantPermissions":true},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 200: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"13.0","automationName":"UiAutomator2","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","autoGrantPermissions":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"Pixel","platformVersion":"13.0","automationName":"UiAutomator2","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","autoGrantPermissions":true},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb"}}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/appium/device/pixel_ratio] with no body
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/appium/device/system_bars] with no body
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/window/current/size] with no body
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/appium/device/info] with no body
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 200: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":3.5}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 200: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"statusBar":84}}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 200: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"height":3036,"width":1440}}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 200: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"androidId":"d787eba0bd80e011","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabil...
+[38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Starting 'com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.Main and waiting for 'com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.Main'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.Main -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;112m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[38;5;16m[AppiumDriver@509e][0m New AndroidUiautomator2Driver session created successfully, session 8bc8b12b-0c92-431e-abff-d6c5a4b4828c added to master session list
+[38;5;16m[AppiumDriver@509e][0m Event 'newSessionStarted' logged at 1721036902958 (16:48:22 GMT+0700 (Indochina Time))
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Cached the protocol value 'W3C' for the new session 8bc8b12b-0c92-431e-abff-d6c5a4b4828c
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"13","automationName":"UiAutomator2","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","autoGrantPermissions":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"Pixel","platformVersion":"13.0","automationName":"UiAutomator2","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","autoGrantPermissions":true},"deviceUDID":"emulator-5554","pixelRatio":"3.5","statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2952},"deviceApiLevel":33,"deviceManufacturer":"Google","deviceModel":"sdk_gphone64_x86_64","deviceScreenSize":"1440x3120","deviceScreenDensity":560}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m10185 ms - 1063[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"class name","value":"android.widget.TextView"}[39m
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","8bc8b12b-0c92-431e-abff-d6c5a4b4828c"]
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Waiting up to 0 ms for condition
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/element] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 404: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"error":"invalid session id","message":"The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known","stacktrace":"io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:3...
+[38;5;128m[W3C][0m Matched W3C error code 'invalid session id' to NoSuchDriverError
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Encountered internal error running command: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at java.lang.Thread.run(Thread.java:1012)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 
+[38;5;0m[HTTP][0m [37m<-- POST /session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element [39m[33m404[39m [90m1452 ms - 3692[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"class name","value":"android.widget.TextView"}[39m
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","8bc8b12b-0c92-431e-abff-d6c5a4b4828c"]
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Waiting up to 0 ms for condition
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/element] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 404: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"error":"invalid session id","message":"The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known","stacktrace":"io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:3...
+[38;5;128m[W3C][0m Matched W3C error code 'invalid session id' to NoSuchDriverError
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Encountered internal error running command: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at java.lang.Thread.run(Thread.java:1012)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 
+[38;5;0m[HTTP][0m [37m<-- POST /session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element [39m[33m404[39m [90m39 ms - 3692[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"class name","value":"android.widget.TextView"}[39m
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","8bc8b12b-0c92-431e-abff-d6c5a4b4828c"]
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Waiting up to 0 ms for condition
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/element] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 404: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"error":"invalid session id","message":"The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known","stacktrace":"io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:3...
+[38;5;128m[W3C][0m Matched W3C error code 'invalid session id' to NoSuchDriverError
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Encountered internal error running command: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at java.lang.Thread.run(Thread.java:1012)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 
+[38;5;0m[HTTP][0m [37m<-- POST /session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element [39m[33m404[39m [90m18 ms - 3692[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"class name","value":"android.widget.TextView"}[39m
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","8bc8b12b-0c92-431e-abff-d6c5a4b4828c"]
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Waiting up to 0 ms for condition
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb/element] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 404: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"error":"invalid session id","message":"The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known","stacktrace":"io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:3...
+[38;5;128m[W3C][0m Matched W3C error code 'invalid session id' to NoSuchDriverError
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Encountered internal error running command: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 	at java.lang.Thread.run(Thread.java:1012)
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m 
+[38;5;0m[HTTP][0m [37m<-- POST /session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c/element [39m[33m404[39m [90m28 ms - 3692[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Calling AppiumDriver.deleteSession() with args: ["8bc8b12b-0c92-431e-abff-d6c5a4b4828c"]
+[38;5;16m[AppiumDriver@509e][0m Event 'quitSessionRequested' logged at 1721036904581 (16:48:24 GMT+0700 (Indochina Time))
+[38;5;16m[AppiumDriver@509e][0m Removing session 8bc8b12b-0c92-431e-abff-d6c5a4b4828c from our master session list
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Deleting UiAutomator2 session
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Deleting UiAutomator2 server session
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Matched '/' to command name 'deleteSession'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/6b6435eb-150c-4aef-84ec-082a3f6741bb] with no body
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Got response with status 404: {"sessionId":"6b6435eb-150c-4aef-84ec-082a3f6741bb","value":{"error":"invalid session id","message":"The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known","stacktrace":"io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:3...
+[38;5;128m[W3C][0m Matched W3C error code 'invalid session id' to NoSuchDriverError
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: NoSuchDriverError: The session identified by 6b6435eb-150c-4aef-84ec-082a3f6741bb is not known
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.socialnmobile.dictapps.notepad.color.note'
+[38;5;96m[Logcat][0m Stopping logcat capture
+[38;5;64m[ADB][0m Removing forwarded port socket connection: 8200 
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[38;5;48m[AndroidUiautomator2Driver@599d (8bc8b12b)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;16m[AppiumDriver@509e][0m Event 'quitSessionFinished' logged at 1721036905089 (16:48:25 GMT+0700 (Indochina Time))
+[38;5;16m[AppiumDriver@509e][0m Received response: null
+[38;5;16m[AppiumDriver@509e][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@509e][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/8bc8b12b-0c92-431e-abff-d6c5a4b4828c [39m[32m200[39m [90m510 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m

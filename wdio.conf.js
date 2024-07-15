@@ -5,8 +5,7 @@ exports.config = {
     port: 4723,  
     specs: [
         // ToDo: define location for spec files here
-        //'D://testingMobileAutomation//test//specs//**.spec.js',
-        'D://testingMobileAutomation//test//specs//02_editNotes.spec.js'
+        'D://testingMobileAutomation//test//specs//**.spec.js'
     ],
     exclude: [
         // 'path/to/excluded/files'
@@ -32,6 +31,7 @@ exports.config = {
         [
             'appium',
             {
+                command: 'appium',
                 args: {
                     address: 'localhost',
                     port: 4723,
@@ -39,8 +39,7 @@ exports.config = {
                 },
                 logPath: './',
             },
-        ],
-        ['appium', { command: 'appium' }], // Add this line
+        ]
     ],
     framework: 'mocha',
     reporters: ['spec'],
@@ -50,12 +49,11 @@ exports.config = {
     },
     hooks: {
         onPrepare: () => {
-            // ... other onPrepare logic
             require('ts-node').register({
                 files: true,
                 project: 'path/to/your/tsconfig.json',
                 transpileOnly: true,
-                shortCircuit: true, // Add this line
+                shortCircuit: true,
             });
         },
     },
