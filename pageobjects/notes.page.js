@@ -11,6 +11,10 @@ class notesPage {
         return $('~Add');
     }
 
+    get btnMore () {
+        return $('~More');
+    }
+
     get addSelection () {
         return $('//*[@text="Add"]');
     }
@@ -79,6 +83,9 @@ class notesPage {
         return $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/back_btn"]');
     }
 
+    get btnDeleteNote () {
+        return $('//android.widget.ListView/android.widget.LinearLayout[@class="android.widget.LinearLayout" and @index="6"]');
+    }  
 }
 
 module.exports = new notesPage();
