@@ -5,7 +5,7 @@ exports.config = {
     port: 4723,  
     specs: [
         // ToDo: define location for spec files here
-        'D://testingMobileAutomation//test//specs//**.spec.js'
+        'D://appiumMobileAutomation//test//specs//**.spec.js'
     ],
     exclude: [
         // 'path/to/excluded/files'

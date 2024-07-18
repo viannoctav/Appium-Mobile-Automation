@@ -5,8 +5,8 @@
 [38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
 [35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
 [35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
-[35m[Appium][39m Will require it at D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver
-[35m[Appium][39m Requiring driver at D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\build\index.js
+[35m[Appium][39m Will require it at D:\appiumMobileAutomation\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at D:\appiumMobileAutomation\node_modules\appium-uiautomator2-driver\build\index.js
 [38;5;16m[AppiumDriver@0166][0m Appium v2.4.1 creating new AndroidUiautomator2Driver (v2.34.2) session
 [38;5;16m[AppiumDriver@0166][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
 [38;5;16m[AppiumDriver@0166][0m Appium's BaseDriver version is 9.5.0
@@ -61,7 +61,7 @@
 [38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
 [38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.2.0' >= '5.2.0')
-[38;5;64m[ADB][0m There is no need to install/upgrade 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;64m[ADB][0m There is no need to install/upgrade 'D:\appiumMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
 [38;5;64m[ADB][0m Getting IDs of all 'io.appium.settings' processes
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
@@ -70,25 +70,33 @@
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Forwarding UiAutomator2 Server port 6790 to local port 8202
 [38;5;64m[ADB][0m Forwarding system: 8202 to device: 6790
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8202 tcp:6790'
-[38;5;64m[ADB][0m Checking app cert for D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk
-[38;5;64m[ADB][0m Checking app cert for D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;64m[ADB][0m Checking app cert for D:\appiumMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk
+[38;5;64m[ADB][0m Checking app cert for D:\appiumMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
 [38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
-[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-11.0.14\\bin\\java.exe' -Xmx1024M -Xss1m -jar 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs D:\\testingMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
-[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-11.0.14\\bin\\java.exe' -Xmx1024M -Xss1m -jar 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs D:\\testingMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.16.apk
-[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-11.0.14\\bin\\java.exe' -Xmx1024M -Xss1m -jar 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs D:\\appiumMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-11.0.14\\bin\\java.exe' -Xmx1024M -Xss1m -jar 'C:\\Users\\Rifita Anggun\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs D:\\appiumMobileAutomation\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.16.apk
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+
+[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+
+[38;5;64m[ADB][0m SignappiumMobileAutomationigest: e89b158e4bcf988ebd09eb83f5378e87
+
 [38;5;64m[ADB][0m 
 [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
 [38;5;64m[ADB][0m 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
 [38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
 [38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
-[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+
+[38;5;64m[ADB][0m SignappiumMobileAutomation56 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+
+[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87appiumMobileAutomationappiumMobileAutomation
+
 [38;5;64m[ADB][0m 
 [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.16.apk'
 [38;5;64m[ADB][0m 'D:\testingMobileAutomation\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk' is signed with the default certificate
@@ -114,7 +122,7 @@
 [38;5;64m[ADB][0m Retrieved 21 permissions from requested group
 [38;5;64m[ADB][0m Retrieving granted permissions
 [38;5;64m[ADB][0m Retrieved 10 permissions from install,runtime groups
-[38;5;64m[ADB][0m Granting permissions ["android.permission.POST_NOTIFICATIONS"] to 'com.socialnmobile.dictapps.notepad.color.note'
+[38;5;64m[ADB][0m Granting permissions ["android.permission.POST_NOTIFICATIONS"] to 'com.soappiumMobileAutomationtepad.color.note'appiumMobileAutomation
 [38;5;64m[ADB][0m Got the following command chunks to execute: [["pm","grant","com.socialnmobile.dictapps.notepad.color.note","android.permission.POST_NOTIFICATIONS",";"]]
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm grant com.socialnmobile.dictapps.notepad.color.note android.permission.POST_NOTIFICATIONS ;'
 [38;5;80m[AndroidDriver][0m Performed fast reset on the installed 'com.socialnmobile.dictapps.notepad.color.note' application (stop and clear)
@@ -214,10 +222,10 @@
 [38;5;0m[HTTP][0m [90m[39m
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/50ec9a3b-ae94-4add-b28a-70a180fe426a/element[39m
 [38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Add"}[39m
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Add","50ec9a3b-ae94-4add-b28a-70a180fe426a"]
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Calling AppiumDriver.findElement() with args: ["aappiumMobileAutomation"50ec9a3b-ae94-4add-b28a-70a180fe426a"]
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Waiting up to 0 ms for condition
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Waiting up to 0 ms for conditionappiumMobileAutomation
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Matched '/element' to command name 'findElement'appiumMobileAutomation
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/21f746b2-62d8-4f31-9750-024871a7a338/element] with body: {"strategy":"accessibility id","selector":"Add","context":"","multiple":false}
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Got response with status 404: {"sessionId":"21f746b2-62d8-4f31-9750-024871a7a338","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
 [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
@@ -461,10 +469,10 @@
 [38;5;0m[HTTP][0m [90m[39m
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/50ec9a3b-ae94-4add-b28a-70a180fe426a/element[39m
 [38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/edit\"]"}[39m
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/edit\"]","50ec9a3b-ae94-4add-b28a-70a180fe426a"]
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Calling AppiumDriver.findElement() with args: ["xappiumMobileAutomation=\"com.socialnmobile.dictapps.notepad.color.note:id/edit\"]","50ec9a3b-ae94-4add-b28a-70a180fe426a"]
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Waiting up to 0 ms for condition
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Waiting up to 0 ms for conditionappiumMobileAutomation
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Matched '/element' to command name 'findElement'appiumMobileAutomation
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/21f746b2-62d8-4f31-9750-024871a7a338/element] with body: {"strategy":"xpath","selector":"//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/edit\"]","context":"","multiple":false}
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Got response with status 404: {"sessionId":"21f746b2-62d8-4f31-9750-024871a7a338","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
 [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
@@ -670,11 +678,11 @@
 [38;5;0m[HTTP][0m [90m[39m
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/50ec9a3b-ae94-4add-b28a-70a180fe426a/element[39m
 [38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/title\"]"}[39m
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/title\"]","50ec9a3b-ae94-4add-b28a-70a180fe426a"]
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Calling AppiumDriver.findElement() with args: ["xappiumMobileAutomation=\"com.socialnmobile.dictapps.notepad.color.note:id/title\"]","50ec9a3b-ae94-4add-b28a-70a180fe426a"]
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Waiting up to 0 ms for condition
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Matched '/element' to command name 'findElement'
-[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/21f746b2-62d8-4f31-9750-024871a7a338/element] with body: {"strategy":"xpath","selector":"//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/title\"]","context":"","multiple":false}
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Matched '/element' to command name 'findElement'appiumMobileAutomation
+[38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Proxying [POST /element] to [POST http://127.0.0.appiumMobileAutomation-62d8-4f31-9750-024871a7a338/element] with body: {"strategy":"xpath","selector":"//*[@resource-id=\"com.socialnmobile.dictapps.notepad.color.note:id/title\"]","context":"","multiple":false}
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Got response with status 404: {"sessionId":"21f746b2-62d8-4f31-9750-024871a7a338","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
 [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
@@ -892,8 +900,10 @@
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8202'
 [38;5;48m[AndroidUiautomator2Driver@9309 (50ec9a3b)][0m Restoring hidden api policy to the device default configuration
 [38;5;64m[ADB][0m Running 'C:\Users\Rifita Anggun\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-[38;5;112m[Instrumentation][0m Time: 41.364
-[38;5;112m[Instrumentation][0m 
+[38;5;112m[Instrumentation][0m Time: 41.364
+
+[38;5;112m[Instrumentation][0m 
+
 [38;5;112m[Instrumentation][0m OK (1 test)
 [38;5;112m[Instrumentation][0m The process has exited with code 0
 [38;5;16m[AppiumDriver@0166][0m Event 'quitSessionFinished' logged at 1721113547485 (14:05:47 GMT+0700 (Indochina Time))
